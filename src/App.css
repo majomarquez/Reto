@@ -1,4 +1,29 @@
-.App {
+
+.found{
+  width: 55%;
+  height: 30px;
+  border-radius: 8px;
+  background-color: #efefef;
+ 
+}
+.header{
+  padding: 10px 0px 3px 70px;
+}
+.foundBtn{
+  margin: 4px 23px;
+  padding: 12px 17px;
+  background: none;
+  border: none;
+  font-size: 17px;
+  font-family: 'Roboto Bold'; 
+  }
+.foundBtn:hover{
+ background: #efefef;
+  border-radius: 11px;
+
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -30,4 +55,11 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+@font-face {
+  font-family: 'Roboto Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Roboto Bold'), url('Roboto-Bold.woff') format('woff');
 }

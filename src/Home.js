@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css'
 
 const clientId = '12b72b0c9645258635efff82e39f7a5fcd438e24324f08437cf4fafa723b6fae';
 const endpoint = 'https://api.unsplash.com/search/photos';
@@ -39,9 +40,9 @@ export default class Home extends React.Component{
         })
     }
     render(){
-        return(<div>
-            <input type="text" onChange={this.trackQueryValue}/>
-            <button onClick={this.search}>Buscar</button>
+        return(<div className= "header">
+            <input className="found" type="text" onChange={this.trackQueryValue}/>
+            <button className="foundBtn" onClick={this.search}>Buscar</button>
             <div>{this.images()}</div>
         </div>
 
